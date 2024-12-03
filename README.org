@@ -1,0 +1,21 @@
+#+TITLE: README.org
+#+AUTHOR: Laluxx
+#+DATE: [2024-12-03]
+#+OPTIONS: toc:2
+
+
+* INSTALL
+** Clone it
+#+begin_src shell
+git clone https://github.com/laluxx/dired-ffmpeg ~/.config/emacs/lisp/dired-ffmpeg
+#+end_src>
+
+** And add to init.el
+#+begin_src lisp
+(use-package activate-emacs
+  :load-path "~/.config/emacs/lisp/activate-emacs")
+#+end_src>
+
+* Demo
+[[./demo.png]]
+[[./demo2.png]]
